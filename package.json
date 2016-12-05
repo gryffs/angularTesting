@@ -1,0 +1,26 @@
+{
+  "name": "angulartesting",
+  "version": "1.0.0",
+  "description": "Practice setting up testing in Angular.  Followed tutorial found here: https://scotch.io/tutorials/testing-angularjs-with-jasmine-and-karma-part-1",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gryffs/angularTesting.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/gryffs/angularTesting/issues"
+  },
+  "homepage": "https://github.com/gryffs/angularTesting#readme",
+  "dependencies": {
+    "body-parser": "^1.15.2",
+    "express": "^4.14.0",
+    "morgan": "^1.7.0",
+    "path": "^0.12.7"
+  }
+}
