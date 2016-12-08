@@ -59,4 +59,11 @@ describe('Users factory', function() {
     });
   });
 
+  describe('.findById()', function() {
+    // A simple test to verify the method findById exists
+    it('should exist', function() {
+      expect(Users.findById).toBeDefined();
+    });
+  });
+
 });
