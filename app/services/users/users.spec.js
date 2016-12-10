@@ -64,6 +64,16 @@ describe('Users factory', function() {
     it('should exist', function() {
       expect(Users.findById).toBeDefined();
     });
+
+    // A test to verify that calling findById() with an id, in this case '2', returns a single user
+    it('should return on user object if it exists', function() {
+      expect(Users.findById('2')).toEqual(userList[1]);
+    });
+
+    // A test to verify that calling findById() with an id that doesn't exist returns undefined
+    it('should return undefined if the user cannot be found', function() {
+      expect(Users.findById('ABC')).not.toBeDefined();
+    });
   });
 
 });
